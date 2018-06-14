@@ -1427,3 +1427,25 @@
 		.padding {
 			padding: 0px;
 		}
+
+		#navbar {
+		  display : flex;
+		  justify-content : center;
+		  top : 50px;
+		  right : 0;
+		  text-align : center;
+		  position: fixed;
+		  width: 100%;
+		  transition: 0.5s;
+		}
+
+		#navbar a {
+		  color: white;
+		  text-align: center;
+		  padding: 25px 15px;
+		  text-decoration: none;
+		}
+
+		.navbar--hidden {
+		  transform:translateY(-100%);
+		}
