@@ -837,6 +837,7 @@
 
 		a:hover {
 			color: black;
+			transition: .3;
 		}
 
 		.faico {
@@ -1436,7 +1437,7 @@
 		  text-align : center;
 		  position: fixed;
 		  width: 100%;
-		  transition: 0.5s;
+		  transition: 0.3s;
 		}
 
 		#navbar a {
