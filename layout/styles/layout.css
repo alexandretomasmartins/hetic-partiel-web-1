@@ -1243,6 +1243,14 @@
 			#copyright p:first-of-type {
 				margin-bottom: 10px;
 			}
+			#pageintro {
+				display: flex;
+				justify-content: center;
+				text-align: center;
+			}
+			#pageintro p {
+				text-align: center;
+			}
 			.nospace {
 				display: flex;
 				align-items: center;
