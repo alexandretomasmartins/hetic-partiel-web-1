@@ -2,6 +2,64 @@
 		@import url("font-awesome.min.css");
 		@import url("framework.css");
 
+
+		/* Burger Menu --------------------------------------------------------------------------------------------------------------- */
+
+		.container {
+    display: none;
+    cursor: pointer;
+		}
+
+		.bar1, .bar2, .bar3 {
+		    width: 25px;
+		    height: 3px;
+		    background-color: white;
+		    margin: 6px 0;
+		    transition: 0.4s;
+		}
+
+		/* Rotate first bar */
+		.change .bar1 {
+		    -webkit-transform: rotate(-45deg) translate(-5px, 5px);
+		    transform: rotate(-45deg) translate(-5px, 5px);
+				background-color: black;
+		}
+
+		/* Fade out the second bar */
+		.change .bar2 {
+		    opacity: 0;
+				background-color: black;
+		}
+
+		/* Rotate last bar */
+		.change .bar3 {
+		    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+		    transform: rotate(45deg) translate(-8px, -8px) ;
+				background-color: black;
+		}
+
+		.change {
+			position: absolute;
+			bottom: 10px;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+
+		.change:hover {
+			cursor: pointer;
+		}
+
+		.mobilenav {
+			width: 100vw;
+			height: 100vh;
+			display: none;
+			background: white;
+		}
+
+		.mobilenav--isactive {
+			display: block;
+		}
+
 		/* Top Bar --------------------------------------------------------------------------------------------------------------- */
 
 		#topbar {
@@ -1274,6 +1332,9 @@
 			.hoc {
 				text-align: center;
 			}
+			.container {
+				display: inline-block;
+			}
 		}
 
 		@media screen and (max-width:750px) {
@@ -1361,4 +1422,8 @@
 			.font-x3 {
 				font-size: 1.6rem;
 			}
+		}
+
+		.padding {
+			padding: 0px;
 		}
