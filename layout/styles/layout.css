@@ -79,7 +79,6 @@
 			margin-top: 50px;
 		}
 
-
 		/* Content Area --------------------------------------------------------------------------------------------------------------- */
 
 		.container {
@@ -1236,6 +1235,30 @@
 			#copyright {}
 			#copyright p:first-of-type {
 				margin-bottom: 10px;
+			}
+			.nospace {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				text-align: center;
+			}
+			.center {
+				display: flex;
+				justify-content: center;
+			}
+			.team {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+			.latest {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				text-align: center;
+			}
+			.hoc {
+				text-align: center;
 			}
 		}
 
